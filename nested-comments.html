@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+      .flexy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .border-box {
+        width: 60%;
+        padding: 50px;
+        margin-top: 10%;
+        border: 2px solid black;
+        box-shadow: 2px 2px 20px 5px rgba(0, 0, 255, 0.3);
+      }
+      .input-width {
+        width: 90%;
+        height: 60px;
+        padding: auto;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexy">
+      <div class="border-box">
+        <input
+          type="text"
+          class="input-width"
+          id="myInput"
+        />
+        <button id="my_button">Submit</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="./nestedComment.js"></script>
+  </body>
+</html>
